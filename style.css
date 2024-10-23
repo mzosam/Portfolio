@@ -1,6 +1,3 @@
-To enhance the responsiveness of your CSS code, I'll suggest some improvements to the existing styles and add media queries where necessary. Here’s the updated code:
-
-```css
 html {
     scroll-behavior: smooth;
 }
