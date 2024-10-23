@@ -183,6 +183,7 @@ main.landing-page {
     overflow: hidden;
     transition: 1s;
     margin: 10px; /* Add margin for spacing */
+    background-color: blue;
 }
 
 .service:hover {
