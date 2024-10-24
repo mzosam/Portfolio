@@ -18,7 +18,7 @@ header {
     align-items: center;
     position: sticky;
     top: 0;
-    margin: 20px;
+    margin: 20px 20px 0 20px;
     z-index: 2;
     border-radius: 10px 10px 0 0;
 }
@@ -28,6 +28,22 @@ header {
         margin: 0;
         border-radius: 0;
     }
+}
+
+/*---------------- Tablet ---------------------*/
+@media screen and (min-width:720px) and (max-width:900px){
+    header {
+        margin: 0;
+        border-radius: 0;
+    }
+    .landing-page,
+    .about-section,
+    .services-section,
+    .contact-section {
+        margin: 0 !important;
+        border-radius: 0 !important;
+    }
+       
 }
 
 .logo::before,
@@ -82,7 +98,7 @@ nav ul li a:hover {
     color: #333;
 }
 
-main.landing-page {
+.landing-page {
     display: flex;
     align-items: center;
     padding: 40px;
@@ -93,7 +109,7 @@ main.landing-page {
 }
 
 @media screen and (max-width: 600px) {
-    main.landing-page {
+    .landing-page {
         flex-direction: column-reverse;
         margin: 0;
         border-radius: 0;
@@ -104,13 +120,13 @@ main.landing-page {
     }
 }
 
-.content button {
+.content button{
     background-color: #ffffff;
     color: #333;
-    transition: 0.7s;
+    transition: .70s;
 }
 
-.content button:hover {
+.content button:hover{
     background-color: #333;
     box-shadow: 0 0 3px #ffffff;
     color: #ffffff;
@@ -123,10 +139,18 @@ main.landing-page {
 }
 
 .profile-pic img {
-    width: 100%; /* Make it responsive */
-    max-width: 300px; /* Limit the max width */
-    height: 300px; /* Maintain aspect ratio */
+    width: 100%; 
+    max-width: 300px; 
+    height: 300px; 
     border-radius: 50%;
+}
+
+/*--------------------- Mobile -----------------------*/
+@media screen and (max-width:320px) {
+    .service {
+        max-width: 250px;
+        max-height: 230px !important;
+    }
 }
 
 .profile-pic::before {
@@ -169,11 +193,14 @@ main.landing-page {
 .services-section {
     background: #e2e2e2;
 }
+.contact-section{
+    background-color: #e0e0e0;
+}
 
 .services-container {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; /* Allow wrapping */
+    flex-wrap: wrap; 
 }
 
 .service {
@@ -182,7 +209,7 @@ main.landing-page {
     max-height: 240px;
     overflow: hidden;
     transition: 1s;
-    margin: 10px; /* Add margin for spacing */
+    margin: 10px; 
 }
 
 .service:hover {
@@ -318,13 +345,39 @@ footer {
         color: #333;
     }
 
-    /* Adjust button and form inputs for smaller screens */
+    
     button {
-        width: 100%; /* Make buttons full width */
-        padding: 15px; /* Add some padding for touch targets */
+        width: 100%; 
+        padding: 15px; 
     }
+}
 
-    input, textarea {
-        width: 100%; /* Make inputs full width */
-    }
+.contact-section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+
+button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
 }
