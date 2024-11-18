@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samkelo - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-bars" onclick="showNavigation()"></i>
+            </ul>
+        </nav>
+        <div class="mobile" onclick="showNavigation()">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+            <div class="icons">
+                <hr>
+                <h5><small>Connect with me:</small></h5>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="landing-page">
+        <div class="content">
+            <h1>Hello, I'm Sam</h1>
+            <p>I specialize in <strong class="txttyping"></strong></p>
+
+            <a href="images/Sam - Resume.pdf" target="_blank" download  >
+                <button>Download Cv</button>
+            </a>
+        </div>
+        <div class="profile-pic">
+            <img src="images/Digital Marketing.gif" alt="Your Picture">
+        </div>
+    </main>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>
+            As a passionate IT professional with 3 years of experience in the industry, I specialize in web development, networking, cloud computing, etc. My journey began with a diploma in <em>Information Technology</em> from <em>Commerce and Computer College of South Africa (Pty)Ltd.</em>, which provided me with a strong foundation in programming.
+            Throughout my career, I’ve had the opportunity to lecture a variety of students (End User). I thrive on solving complex problems and implementing innovative solutions that drive efficiency and enhance user experience.
+            My technical skills include configuring computer lab, issues related to operating system, develop and deploy websites and I’m always eager to learn about emerging trends and advancements in the IT landscape. I believe in continuous learning, which is why I’m currently pursuing Postgraduate Computer Certificate in Education (PGCE) at University of South Africa.
+            In addition to my technical expertise, I pride myself on my ability to collaborate with cross-functional teams and communicate effectively with both technical and non-technical stakeholders. I’m committed to creating a positive impact through technology and enjoy mentoring others in the field.
+            When I’m not immersed in IT, you can find me exploring new programming languages, or exhibiting to my surroundings how the world is becoming a better place with the evolution of techonology.
+            I’m excited to connect with like-minded professionals and explore opportunities to innovate and make a difference in the IT world!
+        </p>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2>My Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <img src="images/Logofolio 13_14.jfif" alt="Service 1">
+                <h3>Web Development</h3>
+                <p>Experience in developing and designing stunning webpages, using three technologies. HTML, CSS and JavaScripts</p>
+            </div>
+            <div class="service">
+                <img src="images/Network-as-a-Service.jfif" alt="Service 2">
+                <h3>Networking</h3>
+                <p>Working with various types of toplogies and designing SOHO network.</p>
+            </div>
+            <div class="service">
+                <img src="images/Premium Photo _ Top view of workspace with agenda and laptop.jfif" alt="Service 3">
+                <h3>Typography</h3>
+                <p>Currently on my fifth year of experience, i have the ability to create any type of document using Microsoft word and Canva. A skill to design creative animated presentations using PowerPoint. Mostly i can work with various Micosoft suit application such as Excel, Access and Outlook.</p>
+            </div>
+            <div class="service">
+                <img src="images/Premium Photo _ Graduation cap on pile of books.jpg" alt="Service 3">
+                <h3>Lecture</h3>
+                <p>Currently on my third year of teaching Computer IT (End User). It's absolutely great experience that serves the opportunity to constantly build on courage, knowledge and skills daily.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3><a href="URL_TO_PROJECT_1" target="_blank">Quiz game</a></h3>
+                <p>Description: It's a useful tool i designed for revision purposes for my End user Students. it is a collection of three technologies html, css and JavaScripts.</p>
+                <p>Role: <strong>Soloist.</strong></p>
+            </li>
+            <li>
+                <h3><a href="Sites/MRJ-OnlineClothingStore/index.html" target="_blank">Ecommerce websites</a></h3>
+                <p>Description: We developed an online store, it's a platform that helps customers browes fashion on the go and they can also place orders virtually with the help of paygates. We used variety of technologies like JavaScripts, html, css and React.</p>
+                <p>Role: <strong>Front End development.</strong></p>
+            </li>
+            <li>
+                <h3><a href="Sites/Movies/index.html" target="_blank">Movie sites</a></h3>
+                <p>Description: This was only for learning purposes, i designed to help my students understand how absolute liks work.</p>
+                <p>Role: <strong>Soloist</strong>.</p>
+            </li>
+        </ul>
+    </section>
+    
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or would like to work together, feel free to reach out.</p>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <input type="hidden" name="access_key" value="3622e100-8ad1-4fe1-a7fe-0353246bc6b7">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mziwokuthula Semukele Maphumulo</p>
+    </footer>
+
+    <script>
+        let navigationBar = document.querySelector('.mobile');
+
+        function showNavigation(){
+            if(navigationBar.className == 'open'){
+                   navigationBar.className = 'mobile';
+            }
+            else{
+               navigationBar.className = 'open';
+            }
+        }
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        let typed = new Typed(".txttyping",{
+            strings : ["Programming." , "Lecturing." , "Typography." , "Networking."],
+            typeSpeed : 150,
+            backSpeed : 150,
+            loop : true
+        })
+    </script>
+</body>
+</html>
+
+
+

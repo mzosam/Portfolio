@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="movies.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <h1>Movie Collection</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="../../index.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="movies-category">
+            <h3>Action</h3>
+            <i class="fa-solid fa-chevron-right" onclick="scrollL()"></i>
+            <div class="movies" id="actionPanel">
+                <div class="movie">
+                    <img src="images/Novermber_man.jpg" alt="Action Movie 1"> <i class="fa-solid fa-play"></i>
+                    <p>The November man</p>
+                </div>
+                <div class="movie">
+                    <img src="images/Fast_9.jpg" alt="Action Movie 2"> <i class="fa-solid fa-play"></i>
+                    <p>Fast and Furious 9</p>
+                </div>
+                <div class="movie">
+                    <img src="images/triple_x.jfif" alt="Action Movie 3"> <i class="fa-solid fa-play"></i>
+                    <p>Triple X</p>
+                </div>
+                <div class="movie">
+                    <img src="images/Fast_9.jpg" alt="Action Movie 2"> <i class="fa-solid fa-play"></i>
+                    <p>Hard target</p>
+                </div>
+                <div class="movie">
+                    <img src="images/triple_x.jfif" alt="Action Movie 3"> <i class="fa-solid fa-play"></i>
+                    <p>The Meg</p>
+                </div>
+                <div class="movie">
+                    <img src="images/triple_x.jfif" alt="Action Movie 3"> <i class="fa-solid fa-play"></i>
+                    <p>xXx</p>
+                </div>
+                <div class="movie">
+                    <img src="images/triple_x.jfif" alt="Action Movie 3"> <i class="fa-solid fa-play"></i>
+                    <p>Triple X</p>
+                </div>
+                <div class="movie">
+                    <img src="images/Fast_9.jpg" alt="Action Movie 2"> <i class="fa-solid fa-play"></i>
+                    <p>Fast and Furious 9</p>
+                </div>
+                <div class="movie">
+                    <img src="images/Fast_9.jpg" alt="Action Movie 2"> <i class="fa-solid fa-play"></i>
+                    <p>Fast nine</p>
+                </div>
+                <div class="movie">
+                    <img src="images/Fast_9.jpg" alt="Action Movie 2"> <i class="fa-solid fa-play"></i>
+                    <p>Fast and Furious</p>
+                </div>
+            </div>
+            <i class="fa-solid fa-chevron-left" onclick=" scrollR()" ></i>
+        </div>
+    
+        <div class="movies-category">
+            <h3>Romantic</h3>
+            <i class="fa-solid fa-chevron-right" onclick="scrollLromantic()"></i>
+            <div class="movies" id="romanticPanel">
+                <div class="movie">
+                    <img src="images/Cinderella.jpg" alt="Romantic Movie 1"> <i class="fa-solid fa-play"></i> 
+                    <p>Cinderella</p>
+                </div>
+                <div class="movie">
+                    <img src="images/endless love.jpg" alt="Romantic Movie 2"> <i class="fa-solid fa-play"></i>
+                    <p>Endless Love</p>
+                </div>
+                <div class="movie">
+                    <img src="images/if_only.jpg" alt="Romantic Movie 3"> <i class="fa-solid fa-play"></i>
+                    <p>If Only</p>
+                </div>
+                <div class="movie">
+                    <img src="images/Cinderella.jpg" alt="Romantic Movie 1"> <i class="fa-solid fa-play"></i>
+                    <p>Cinderella</p>
+                </div>
+                <div class="movie">
+                    <img src="images/endless love.jpg" alt="Romantic Movie 2"> <i class="fa-solid fa-play"></i>
+                    <p>Endless Love</p>
+                </div>
+                <div class="movie">
+                    <img src="images/if_only.jpg" alt="Romantic Movie 3"> <i class="fa-solid fa-play"></i>
+                    <p>If Only</p>
+                </div>
+                <div class="movie">
+                    <img src="images/if_only.jpg" alt="Romantic Movie 3"> <i class="fa-solid fa-play"></i>
+                    <p>If Only</p>
+                </div>
+                <div class="movie">
+                    <img src="images/endless love.jpg" alt="Romantic Movie 2"> <i class="fa-solid fa-play"></i>
+                    <p>Endless Love</p>
+                </div>
+                <div class="movie">
+                    <img src="images/if_only.jpg" alt="Romantic Movie 3"> <i class="fa-solid fa-play"></i>
+                    <p>The Vow</p>
+                </div>
+                <div class="movie">
+                    <img src="images/if_only.jpg" alt="Romantic Movie 3"> <i class="fa-solid fa-play"></i>
+                    <p>Me before you</p>
+                </div>
+                <div class="movie">
+                    <img src="images/if_only.jpg" alt="Romantic Movie 3"> <i class="fa-solid fa-play"></i>
+                    <p>Romantic Movie</p>
+                </div>
+                <div class="movie">
+                    <img src="images/endless love.jpg" alt="Romantic Movie 2"> <i class="fa-solid fa-play"></i>
+                    <p>Endless Love</p>
+                </div>
+                <div class="movie">
+                    <img src="images/if_only.jpg" alt="Romantic Movie 3"> <i class="fa-solid fa-play"></i>
+                    <p>Monday</p>
+                </div>
+                <div class="movie">
+                    <img src="images/if_only.jpg" alt="Romantic Movie 3"> <i class="fa-solid fa-play"></i>
+                    <p>Date night</p>
+                </div>
+            </div>
+            <i class="fa-solid fa-chevron-left" onclick="scrollRromantic()" ></i>
+        </div>
+    
+        <div class="movies-category">
+            <h3>Horror</h3>
+            <i class="fa-solid fa-chevron-right" onclick="scrollLhorror()"></i>
+            <div class="movies" id="horrorPanel">
+                <div class="movie">
+                    <img src="images/Vampire.jpg" alt="Horror Movie 1"> <i class="fa-solid fa-play"></i>
+                    <p>Vampire</p>
+                </div>
+                <div class="movie">
+                    <img src="images/last_blood.jpg" alt="Horror Movie 2"> <i class="fa-solid fa-play"></i>
+                    <p>Last blood</p>
+                </div>
+                <div class="movie">
+                    <img src="images/horro_in_the forest.cHJkLWVtcy1hc3NldHMvbW92aWVzLzFlNjZlYzRkLThjZTItNDUyYi05ZDUzLTg1NGE2YTc2YTM5MC5wbmc=" alt="Horror Movie 3"><i class="fa-solid fa-play"></i>
+                    <p>Horror in the forest</p>
+                </div>
+                <div class="movie">
+                    <img src="images/Vampire.jpg" alt="Horror Movie 1"><i class="fa-solid fa-play"></i>
+                    <p>Vampire</p>
+                </div>
+                <div class="movie">
+                    <img src="images/last_blood.jpg" alt="Horror Movie 2"><i class="fa-solid fa-play"></i>
+                    <p>Last blood</p>
+                </div>
+                <div class="movie">
+                    <img src="images/horro_in_the forest.cHJkLWVtcy1hc3NldHMvbW92aWVzLzFlNjZlYzRkLThjZTItNDUyYi05ZDUzLTg1NGE2YTc2YTM5MC5wbmc=" alt="Horror Movie 3"><i class="fa-solid fa-play"></i>
+                    <p>Forest</p>
+                </div>
+                <div class="movie">
+                    <img src="images/horro_in_the forest.cHJkLWVtcy1hc3NldHMvbW92aWVzLzFlNjZlYzRkLThjZTItNDUyYi05ZDUzLTg1NGE2YTc2YTM5MC5wbmc=" alt="Horror Movie 3"><i class="fa-solid fa-play"></i>
+                    <p>Horro</p>
+                </div>
+                <div class="movie">
+                    <img src="images/Vampire.jpg" alt="Horror Movie 1"><i class="fa-solid fa-play"></i>
+                    <p>The Vampire</p>
+                </div>
+                <div class="movie">
+                    <img src="images/last_blood.jpg" alt="Horror Movie 2"><i class="fa-solid fa-play"></i>
+                    <p>Rambo Last blood</p>
+                </div>
+                <div class="movie">
+                    <img src="images/horro_in_the forest.cHJkLWVtcy1hc3NldHMvbW92aWVzLzFlNjZlYzRkLThjZTItNDUyYi05ZDUzLTg1NGE2YTc2YTM5MC5wbmc=" alt="Horror Movie 3"><i class="fa-solid fa-play"></i>
+                    <p>Horror horror movie</p>
+                </div>
+            </div>
+            <i class="fa-solid fa-chevron-left" onclick="scrollRhorror()" ></i>
+        </div>
+    
+        <div class="movies-category">
+            <h3>Comedy</h3>
+            <i class="fa-solid fa-chevron-right" onclick="scrollLcomedy()"></i>
+            <div class="movies" id="comedyPanel">
+                <div class="movie">
+                    <img src="images/dark_shadows.jpg" alt="Comedy Movie 1"><i class="fa-solid fa-play"></i>
+                    <p>Dark shadows</p>
+                </div>
+                <div class="movie">
+                    <img src="images/valentine.jpg" alt="Comedy Movie 2"><i class="fa-solid fa-play"></i>
+                    <p>The Valentine's day</p>
+                </div>
+                <div class="movie">
+                    <img src="images/triple_x.jfif" alt="Comedy Movie 3"><i class="fa-solid fa-play"></i>
+                    <p>Triple X</p>
+                </div>
+                <div class="movie">
+                    <img src="images/dark_shadows.jpg" alt="Comedy Movie 1"><i class="fa-solid fa-play"></i>
+                    <p>Dark Shadows</p>
+                </div>
+                <div class="movie">
+                    <img src="images/valentine.jpg" alt="Comedy Movie 2"><i class="fa-solid fa-play"></i>
+                    <p>Valentine</p>
+                </div>
+                <div class="movie">
+                    <img src="images/me_before_you.jpg" alt="Comedy Movie 3"><i class="fa-solid fa-play"></i>
+                    <p>Me before you</p>
+                </div>
+                <div class="movie">
+                    <img src="images/hard_target.jfif" alt="Comedy Movie 3"><i class="fa-solid fa-play"></i>
+                    <p>Hard target</p>
+                </div>
+                <div class="movie">
+                    <img src="images/dark_shadows.jpg" alt="Comedy Movie 1"><i class="fa-solid fa-play"></i>
+                    <p>Dark shadows</p>
+                </div>
+                <div class="movie">
+                    <img src="images/valentine.jpg" alt="Comedy Movie 2"><i class="fa-solid fa-play"></i>
+                    <p>The valentines</p>
+                </div>
+                <div class="movie">
+                    <img src="images/triple_x.jfif" alt="Comedy Movie 3"><i class="fa-solid fa-play"></i>
+                    <p>Triple X</p>
+                </div>
+                <div class="movie">
+                    <img src="images/dark_shadows.jpg" alt="Comedy Movie 1"><i class="fa-solid fa-play"></i>
+                    <p>dark shadows</p>
+                </div>
+            </div>
+            <i class="fa-solid fa-chevron-left" onclick="scrollRcomedy()" ></i>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Movie Hub</p>
+    </footer>
+
+    <script>
+
+        function scrollL(){
+             let left = document.getElementById('actionPanel');
+             left.scrollBy(350,0);
+         }
+
+         function scrollR(){
+             let right = document.getElementById('actionPanel');
+             right.scrollBy(-350,0);
+         }
+         //------------------------------------------------------------
+
+         function scrollLromantic(){
+             let left = document.getElementById('romanticPanel');
+             left.scrollBy(350,0);
+         }
+
+         function scrollRromantic(){
+             let right = document.getElementById('romanticPanel');
+             right.scrollBy(-350,0);
+         }
+         //------------------------------------------------------------
+
+         function scrollLhorror(){
+             let left = document.getElementById('horrorPanel');
+             left.scrollBy(350,0);
+         }
+
+         function scrollRhorror(){
+             let right = document.getElementById('horrorPanel');
+             right.scrollBy(-350,0);
+         }
+         //------------------------------------------------------------
+
+         function scrollLcomedy(){
+             let left = document.getElementById('comedyPanel');
+             left.scrollBy(350,0);
+         }
+
+         function scrollRcomedy(){
+             let right = document.getElementById('comedyPanel');
+             right.scrollBy(-350,0);
+         }
+    </script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Hub</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Movie Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="search-section">
+        <form action="#" method="GET">
+            <div class="inputHolder">
+                <input type="text" placeholder="Search..." aria-label="Search" required>
+                <button type="submit">Search</button>
+            </div>
+        </form>
+    </section>
+    <main>
+        <h2>Featured Movies</h2>
+        <div class="featured">
+            <img src="images/godfather.jfif" alt="Godfather" onclick="playMovie('https:youtube.com/embed/2D_zITtVJGA')" />
+
+            <img src="images/Lord_of_the_rings.jpg" alt="Lord of the rings" onclick="playMovie('https:youtube.com/embed/gCUg6Td5fgQ')" />
+
+            <img src="images/matrix.jfif" alt="Thw matrix" onclick="playMovie('https:youtube.com/embed/dKnJ3rDgX9I')" />
+
+            <img src="images/night_club.jfif" alt="Night club" onclick="playMovie('https:youtube.com/embed/kae8KVVUFX0')" />
+
+            <img src="images/Cinderella.jpg" alt="Cinderella" onclick="playMovie('https:youtube.com/embed/nn_L8MxuEiI')" />
+
+            <img src="images/if_only.jpg" alt="If Only" onclick="playMovie('https:youtube.com/embed/otlGJeWSaxQ')" />
+
+            <img src="images/Fast_9.jpg" alt="Fast 9" onclick="playMovie('https:youtube.com/embed/FUK2kdPsBws')" />
+
+            <img src="images/the_vow.jfif" alt="The Vow" onclick="playMovie('https:youtube.com/embed/ZhdY3jNIEnw')" />
+
+            <img src="images/Novermber_man.jpg" alt="November man" onclick="playMovie('https:youtube.com/embed/UIYEuDs7wBA')" />
+
+            <img src="images/transpoter.jpg" alt="Transpoter" onclick="playMovie('https:youtube.com/embed/5zErDL0FyBk')" />
+
+            <img src="images/triple_x.jfif" alt="Triple xXx" onclick="playMovie('https:youtube.com/embed/NgPdDDzVhkA')" />
+
+            <img src="images/valentine.jpg" alt="Valentine" onclick="playMovie('https:youtube.com/embed/_rPHeYvM1g0')" />
+
+            <img src="images/me_before_you.jpg" alt="Me before you" onclick="playMovie('https:youtube.com/embed/SCo15rO-y-A')" />
+
+            <img src="images/last_blood.jpg" alt="Last blood" onclick="playMovie('https:youtube.com/embed/-2_FRB7J5fE')" />
+
+            <img src="images/Titanic.png" alt="Titanic" onclick="playMovie('https:youtube.com/embed/I7c1etV7D7g?list=PL4JMP4eWFX50TiQ0e6EXTZJT6m3PmTM_X')" />
+
+            <img src="images/dark_shadows.jpg" alt="Dark shadows" onclick="playMovie('https:youtube.com/embed/ks2NaBseiUI')" />
+
+            <img src="images/goodFellas.jpg" alt="goodFellas" onclick="playMovie('https:youtube.com/embed/YCOfoissJ4Q')" />
+
+            <img src="images/hard_target.jfif" alt="hard_target" onclick="playMovie('https:youtube.com/embed/9OnKbikzpqI')" />
+
+            <img src="images/lord.jpg" alt="Lord" onclick="playMovie('https:youtube.com/embed/JSdOWioIAbg')" />
+
+            <img src="images/Vampire.jpg" alt="Vampire" onclick="playMovie('https:youtube.com/embed/TStCa23fPkM')" />
+
+            <img src="images/Vampire.jpg" alt="Vampire" onclick="playMovie('https:youtube.com/embed/TStCa23fPkM')" />
+
+            <img src="images/valentine.jpg" alt="valentine" onclick="playMovie('https:youtube.com/embed/_rPHeYvM1g0')" />
+
+
+            <img src="images/Cinderella.jpg" alt="Cinderella" onclick="playMovie('https:youtube.com/embed/72gTHNo9b5E')" />
+
+            <img src="images/night_club.jfif" alt="night_club" onclick="playMovie('https:youtube.com/embed/rKpu-mNkLis')" />
+
+            <img src="images/Fast_9.jpg" alt="Fast 9" onclick="playMovie('https:youtube.com/embed/5uq4QNPAPKI')" />
+
+            <img src="images/horro_in_the forest.cHJkLWVtcy1hc3NldHMvbW92aWVzLzFlNjZlYzRkLThjZTItNDUyYi05ZDUzLTg1NGE2YTc2YTM5MC5wbmc=" alt="Inception" onclick="playMovie('https:www.youtube.com/embed/Et14RtoZbdU')" />
+
+            <img src="images/endless love.jpg" alt="endless love" onclick="playMovie('https:youtube.com/embed/NTAzn4W48gc')" />
+
+            <img src="images/the_vow.jfif" alt="the_vow" onclick="playMovie('https:youtube.com/embed/ZhdY3jNIEnw')" />
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 this site content is copyrighted!</p>
+    </footer>
+
+    <script>
+        function playMovie(url) {
+            window.open('movie-play.html?video_url=' + encodeURIComponent(url), '_blank');
+        }
+    </script>
+</body>
+</html>

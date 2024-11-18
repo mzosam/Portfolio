@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: "Maven Pro", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 15px;
+}
+ul li a:hover{
+    color: #599acf;
+}
+
+header {
+    background: #453c66;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.movies-category {
+    margin: 20px 0;
+    position: relative;
+}
+
+.movies-category.movies-category:nth-child(2n){
+    background-color: #e0e0e0;
+}
+
+.movies-category h3 {
+    padding: 20px;
+    color: #453c66;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.movies::-webkit-scrollbar {
+    width: 3px;
+  }
+
+.fa-solid{
+    background-color: #ffffffd3;
+    padding: 10px;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    position: absolute;
+    transition: .10s;
+}
+.fa-solid:hover{
+    background-color: #453c66ea;
+    color: #fff;
+}
+.fa-chevron-right{
+    right: 15px;
+    top: 50%;
+    z-index: 10;
+}
+.fa-chevron-left{
+    left: 15px;
+    top: 50%;
+    z-index: 10;
+}
+
+.movie {
+    min-width: 150px; /* Adjust width as needed */
+    text-align: center;
+    margin: 10px;
+    transition: .30s;
+    position: relative;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-height: 200px;
+}
+
+.movie:hover{
+    transform: scale(1.1);
+}
+
+.movie:hover i{
+    display: block;
+}
+
+.movie p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+.movie > i{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    transition: .30s;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    line-height: 50px;
+    text-align: center;
+}
+.movie > i:hover{
+    background-color: transparent;
+    color: rgb(70, 144, 228);
+    border: 5px solid rgb(70, 144, 228);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #453c66;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
