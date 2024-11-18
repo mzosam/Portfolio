@@ -462,55 +462,55 @@ const clothingData = [
     name: "Stripe T-Shirt",
     type: "WomensShirts",
     price: 189.0,
-    image: "../clothing/women/shirt1.png",
+    image: "../women/shirt1.png",
   },
   {
     name: "Stripe T-Shirt",
     type: "WomensShirts",
     price: 189.0,
-    image: "../clothing/women/shirt2.png",
+    image: "../women/shirt2.png",
   },
   {
     name: "Boxy Printed T-Shirt",
     type: "WomensShirts",
     price: 189.0,
-    image: "../clothing/women/shirt3.png",
+    image: "../women/shirt3.png",
   },
   {
     name: "Miami Oversized T-shirt",
     type: "WomensShirts",
     price: 189.0,
-    image: "../clothing/women/shirt4.png",
+    image: "../women/shirt4.png",
   },
   {
     name: "Collegiate Oversized T-Shirt",
     type: "WomensShirts",
     price: 189.0,
-    image: "../clothing/women/shirt5.png",
+    image: "../women/shirt5.png",
   },
   {
     name: "Younger Girls Grey Melange Graphic Print T-Shirt",
     type: "WomensShirts",
     price: 69.0,
-    image: "../clothing/women/shirt6.png",
+    image: "../women/shirt6.png",
   },
   {
     name: "Rue De Rivoli Oversized T-shirt",
     type: "WomensShirts",
     price: 189.0,
-    image: "../clothing/women/shirt7.png",
+    image: "../women/shirt7.png",
   },
   {
     name: "Collegiate Oversized T-Shirt",
     type: "WomensShirts",
     price: 189.0,
-    image: "../clothing/women/shirt8.png",
+    image: "../women/shirt8.png",
   },
   {
     name: "Older Girls Orange Graphic Print T-Shirt",
     type: "WomensShirts",
     price: 79.0,
-    image: "../clothing/women/shirt9.png",
+    image: "../women/shirt9.png",
   },
 
   // Womens Jeans
@@ -518,55 +518,55 @@ const clothingData = [
     name: "Womens Black High Rise Skinny Jeans",
     type: "WomensPants",
     price: 149.0,
-    image: "../clothing/women/jeans1.png",
+    image: "../women/jeans1.png",
   },
   {
     name: "Womens Mid Blue Jeggings",
     type: "WomensPants",
     price: 149.0,
-    image: "../clothing/women/jeans2.png",
+    image: "../women/jeans2.png",
   },
   {
     name: "Womens Medium Wash High Rise Skinny Jeans",
     type: "WomensPants",
     price: 149.0,
-    image: "../clothing/women/jeans3.png",
+    image: "../women/jeans3.png",
   },
   {
     name: "Womens Dark Blue Skinny Jeans",
     type: "WomensPants",
     price: 249.0,
-    image: "../clothing/women/jeans4.png",
+    image: "../women/jeans4.png",
   },
   {
     name: "Womens Grey Skinny Jeans",
     type: "WomensPants",
     price: 249.0,
-    image: "../clothing/women/jeans5.png",
+    image: "../women/jeans5.png",
   },
   {
     name: "Womens Grey Skinny Jeans",
     type: "WomensPants",
     price: 249.0,
-    image: "../clothing/women/jeans6.png",
+    image: "../women/jeans6.png",
   },
   {
     name: "Womens Dark Blue Jeggings",
     type: "WomensPants",
     price: 249.0,
-    image: "../clothing/women/jeans7.png",
+    image: "../women/jeans7.png",
   },
   {
     name: "Womens Mid Blue Skinny Jeans",
     type: "WomensPants",
     price: 249.0,
-    image: "../clothing/women/jeans8.png",
+    image: "../women/jeans8.png",
   },
   {
     name: "Redbat Womens Grey Skinny Jeans",
     type: "WomensPants",
     price: 549.0,
-    image: "../clothing/women/jeans9.png",
+    image: "../women/jeans9.png",
   },
 
   //Womens Jackets
@@ -574,55 +574,55 @@ const clothingData = [
     name: "Womens TS Black Shell Jacket",
     type: "WomensJackets",
     price: 249.0,
-    image: "../clothing/women/jacket1.png",
+    image: "../women/jacket1.png",
   },
   {
     name: "The North Face Womens Evolve II Triclimate Jacket",
     type: "WomensJackets",
     price: 2349.0,
-    image: "../clothing/women/jacket2.png",
+    image: "../women/jacket2.png",
   },
   {
     name: "Womens Mid Wash Denim Jacket",
     type: "WomensJackets",
     price: 399.0,
-    image: "../clothing/women/jacket3.png",
+    image: "../women/jacket3.png",
   },
   {
     name: "Older Girls Glitter Bomber Jacket",
     type: "WomensJackets",
     price: 299.0,
-    image: "../clothing/women/jacket4.png",
+    image: "../women/jacket4.png",
   },
   {
     name: "G-Star Womens Grey Arc 3D Denim Jacket",
     type: "WomensJackets",
     price: 2999.0,
-    image: "../clothing/women/jacket5.png",
+    image: "../women/jacket5.png",
   },
   {
     name: "Womens Medium Wash Denim Bomber Jacket",
     type: "WomensJackets",
     price: 479.0,
-    image: "../clothing/women/jacket6.png",
+    image: "../women/jacket6.png",
   },
   {
     name: "adidas Originals Womens Black/Natural Track Jacket",
     type: "WomensJackets",
     price: 719.0,
-    image: "../clothing/women/jacket7.png",
+    image: "../women/jacket7.png",
   },
   {
     name: "Younger Girls Navy Quilted Long Puffer Jacket",
     type: "WomensJackets",
     price: 229.0,
-    image: "../clothing/women/jacket8.png",
+    image: "../women/jacket8.png",
   },
   {
     name: "Nike Womens Nsw Green Quilted Jacket",
     type: "WomensJackets",
     price: 1739.0,
-    image: "../clothing/women/jacket9.png",
+    image: "../women/jacket9.png",
   },
 
   //Womens Long Sleeve
@@ -630,55 +630,55 @@ const clothingData = [
     name: "High Neck Long Sleeve Layering T-Shirt",
     type: "WomensLong",
     price: 99.0,
-    image: "../clothing/women/long1.png",
+    image: "../women/long1.png",
   },
   {
     name: "adidas Originals Python Womens Long Sleeve T-Shirt",
     type: "WomensLong",
     price: 359.0,
-    image: "../clothing/women/long2.png",
+    image: "../women/long2.png",
   },
   {
     name: "Y&G Long Sleeve Slogan T-Shirt",
     type: "WomensLong",
     price: 99.0,
-    image: "../clothing/women/long3.png",
+    image: "../women/long3.png",
   },
   {
     name: "Long Sleeve Fitted T-Shirt",
     type: "WomensLong",
     price: 179.0,
-    image: "../clothing/women/long4.png",
+    image: "../women/long4.png",
   },
   {
     name: "Womens Yellow Long Sleeve T-Shirt",
     type: "WomensLong",
     price: 59.0,
-    image: "../clothing/women/long5.png",
+    image: "../women/long5.png",
   },
   {
     name: "Nike Womens Nsw White Long Sleeve T-Shirt",
     type: "WomensLong",
     price: 699.0,
-    image: "../clothing/women/long6.png",
+    image: "../women/long6.png",
   },
   {
     name: "Y&G Long Sleeve Mesh T-Shirt",
     type: "WomensLong",
     price: 79.0,
-    image: "../clothing/women/long7.png",
+    image: "../women/long7.png",
   },
   {
     name: "Satin Long Sleeve Sleep Shirt",
     type: "WomensLong",
     price: 99.0,
-    image: "../clothing/women/long8.png",
+    image: "../women/long8.png",
   },
   {
     name: "Satin Long Sleeve Shirt",
     type: "WomensLong",
     price: 379.0,
-    image: "../clothing/women/long9.png",
+    image: "../women/long9.png",
   },
 
   //Womens Trackpants
@@ -686,49 +686,49 @@ const clothingData = [
     name: "Womens Puma Lemlem Fleece Jogger Frosty Pink Trackpants",
     type: "WomensTrack",
     price: 1799.0,
-    image: "../clothing/women/track1.png",
+    image: "../women/track1.png",
   },
   {
     name: "Womens Puma Queen Football Black/Pink Trackpants",
     type: "WomensTrack",
     price: 1499.0,
-    image: "../clothing/women/track2.png",
+    image: "../women/track2.png",
   },
   {
     name: "Nike Womens Nsw Phoenix Fleece Pink Sweatpants",
     type: "WomensTrack",
     price: 1199.0,
-    image: "../clothing/women/track3.png",
+    image: "../women/track3.png",
   },
   {
     name: "adidas Originals Womens Black Leggings",
     type: "WomensTrack",
     price: 599.0,
-    image: "../clothing/women/track4.png",
+    image: "../women/track4.png",
   },
   {
     name: "Redbat Athletics Womens Grey Melange Jogger",
     type: "WomensTrack",
     price: 349.0,
-    image: "../clothing/women/track5.png",
+    image: "../women/track5.png",
   },
   {
     name: "Womens Charcoal Fleece Jogger",
     type: "WomensTrack",
     price: 149.0,
-    image: "../clothing/women/track6.png",
+    image: "../women/track6.png",
   },
   {
     name: "Redbat Athletics Womens Green Wide Leg Active Pants",
     type: "WomensTrack",
     price: 349.0,
-    image: "../clothing/women/track7.png",
+    image: "../women/track7.png",
   },
   {
     name: "Womens Pink Fleece Jogger",
     type: "WomensTrack",
     price: 149.0,
-    image: "../clothing/women/track8.png",
+    image: "../women/track8.png",
   },
   {
     name: "Womens Grey Melange Fleece Jogger",
@@ -742,37 +742,37 @@ const clothingData = [
     name: "Nike Unisex Dri-FIT Club Unstructured Metal Swoosh Pink Cap",
     type: "WomensHeadwear",
     price: 399.0,
-    image: "../clothing/women/hat1.png",
+    image: "../women/hat1.png",
   },
   {
     name: "Anatomy Nylon Logo Black Cap",
     type: "WomensHeadwear",
     price: 279.0,
-    image: "../clothing/women/hat2.png",
+    image: "../women/hat2.png",
   },
   {
     name: "FF Towelling Bucket Hat",
     type: "WomensHeadwear",
     price: 279.0,
-    image: "../clothing/women/hat3.png",
+    image: "../women/hat3.png",
   },
   {
     name: "FF Towelling Bucket Hat",
     type: "WomensHeadwear",
     price: 279.0,
-    image: "../clothing/women/hat4.png",
+    image: "../women/hat4.png",
   },
   {
     name: "Nike Unisex Heritage86 Dri-Fit Natural Cap",
     type: "WomensHeadwear",
     price: 399.0,
-    image: "../clothing/women/hat5.png",
+    image: "../women/hat5.png",
   },
   {
     name: "FF Logo Bucket Hat",
     type: "WomensHeadwear",
     price: 299.0,
-    image: "../clothing/women/hat6.png",
+    image: "../women/hat6.png",
   },
 
   //Womens Headwear
@@ -780,55 +780,55 @@ const clothingData = [
     name: "Tempo Ladies Two Tone Bracelet Watch",
     type: "WomensWatches",
     price: 449.0,
-    image: "../clothing/women/watch1.png",
+    image: "../women/watch1.png",
   },
   {
     name: "Tempo Womens Silver Plated Bangle Watch",
     type: "WomensWatches",
     price: 374.0,
-    image: "../clothing/women/watch2.png",
+    image: "../women/watch2.png",
   },
   {
     name: "Tempo Womens Rose Plated Silver Dial Bracelet Watch",
     type: "WomensWatches",
     price: 674.0,
-    image: "../clothing/women/watch3.png",
+    image: "../women/watch3.png",
   },
   {
     name: "Denim Analogue Watch",
     type: "WomensWatches",
     price: 100.0,
-    image: "../clothing/women/watch4.png",
+    image: "../women/watch4.png",
   },
   {
     name: "Tempo Womens Silver & Rose Plated Bracelet Watch",
     type: "WomensWatches",
     price: 674.0,
-    image: "../clothing/women/watch5.png",
+    image: "../women/watch5.png",
   },
   {
     name: "Tempo Womens Gold Plated Silver Dial Rectangle Bracelet Watch",
     type: "WomensWatches",
     price: 599.0,
-    image: "../clothing/women/watch6.png",
+    image: "../women/watch6.png",
   },
   {
     name: "Tempo Womens Silver Plated Coin Edge Bracelet Watch",
     type: "WomensWatches",
     price: 599.0,
-    image: "../clothing/women/watch7.png",
+    image: "../women/watch7.png",
   },
   {
     name: "Minx Womens Silver Plated Rectangle Blue Faux Leather Watch",
     type: "WomensWatches",
     price: 299.0,
-    image: "../clothing/women/watch8.png",
+    image: "../women/watch8.png",
   },
   {
     name: "Tempo Womens Rose Plated Champagne Rectangle Dial Pink Leather Watch",
     type: "WomensWatches",
     price: 524.0,
-    image: "../clothing/women/watch9.png",
+    image: "../women/watch9.png",
   },
 
   //Womens Sneakers
@@ -836,55 +836,55 @@ const clothingData = [
     name: "Womens New Balance 500 Tan Sneaker",
     type: "WomensSneakers",
     price: 999.0,
-    image: "../clothing/women/shoe1.png",
+    image: "../women/shoe1.png",
   },
   {
     name: "Nike Womens Air Force LV8 Cream/Green Sneaker",
     type: "WomensSneakers",
     price: 2299.0,
-    image: "../clothing/women/shoe2.png",
+    image: "../women/shoe2.png",
   },
   {
     name: "Nike Womens Court Legacy Lift Natural Sneaker",
     type: "WomensSneakers",
     price: 1699.0,
-    image: "../clothing/women/shoe3.png",
+    image: "../women/shoe3.png",
   },
   {
     name: "Vans Womens SK8-Hi Tapered Blue Sneaker",
     type: "WomensSneakers",
     price: 749.0,
-    image: "../clothing/women/shoe4.png",
+    image: "../women/shoe4.png",
   },
   {
     name: "Womens Nike Waffle Debut Red/White WomensSneakers",
     type: "WomensSneakers",
     price: 1599.0,
-    image: "../clothing/women/shoe5.png",
+    image: "../women/shoe5.png",
   },
   {
     name: "Nike Womens Court Vision White Sneaker",
     type: "WomensSneakers",
     price: 1899.0,
-    image: "../clothing/women/shoe6.png",
+    image: "../women/shoe6.png",
   },
   {
     name: "Womens Nike Court Vision White Shoe",
     type: "WomensSneakers",
     price: 1399.0,
-    image: "../clothing/women/shoe7.png",
+    image: "../women/shoe7.png",
   },
   {
     name: "Nike Womens Gamma Force Natural Sneaker",
     type: "WomensSneakers",
     price: 1899.0,
-    image: "../clothing/women/shoe8.png",
+    image: "../women/shoe8.png",
   },
   {
     name: "Vans Womens Old Skool Checkerboard black/White Sneaker",
     type: "WomensSneakers",
     price: 1199.0,
-    image: "../clothing/women/shoe9.png",
+    image: "../women/shoe9.png",
   },
 
   //  Kids
@@ -894,57 +894,57 @@ const clothingData = [
     name: "Younger Boys Navy Graphic Print T-Shirt",
     type: "KidsShirts",
     price: 69.0,
-    image: "../clothing/kid/shirt1.png",
+    image: "../kid/shirt1.png",
   },
   {
     name: "Younger Boys Fatigue Graphic Print T-Shirt",
     type: "KidsShirts",
     price: 79.0,
-    image: "../clothing/kid/shirt2.png",
+    image: "../kid/shirt2.png",
   },
   {
     name: "Older Boys Ochre Graphic Print T-Shirt",
     type: "KidsShirts",
     price: 79.0,
-    image: "../clothing/kid/shirt3.png",
+    image: "../kid/shirt3.png",
   },
 
   {
     name: "Older Boys Navy Graphic Print T-Shirt",
     type: "KidsShirts",
     price: 69.0,
-    image: "../clothing/kid/shirt4.png",
+    image: "../kid/shirt4.png",
   },
   {
     name: "adidas Originals Youth Essentials Black T-shirt",
     type: "KidsShirts",
     price: 89.0,
-    image: "../clothing/kid/shirt5.png",
+    image: "../kid/shirt5.png",
   },
   {
     name: "Older Boys Grey Graphic Print T-Shirt",
     type: "KidsShirts",
     price: 79.0,
-    image: "../clothing/kid/shirt6.png",
+    image: "../kid/shirt6.png",
   },
 
   {
     name: "Older Girls Stone Graphic Print T-Shirt",
     type: "KidsShirts",
     price: 79.0,
-    image: "../clothing/kid/shirt7.png",
+    image: "../kid/shirt7.png",
   },
   {
     name: "Younger Girls Pink Graphic Print T-Shirt",
     type: "KidsShirts",
     price: 99.0,
-    image: "../clothing/kid/shirt8.png",
+    image: "../kid/shirt8.png",
   },
   {
     name: "Older Girls Yellow Graphic Print T-Shirt",
     type: "KidsShirts",
     price: 79.0,
-    image: "../clothing/kid/shirt9.png",
+    image: "../kid/shirt9.png",
   },
 
   //long sleeve shirts
@@ -952,31 +952,31 @@ const clothingData = [
     name: "Girls Nike Sportswear Air Black Long Sleeve Top",
     type: "KidsLong",
     price: 799,
-    image: "../clothing/kid/long1.png",
+    image: "../kid/long1.png",
   },
   {
     name: "Younger Boys Printed Long Sleeve T-Shirt",
     type: "KidsLong",
     price: 179,
-    image: "../clothing/kid/long2.png",
+    image: "../kid/long2.png",
   },
   {
     name: "Older Girls Long Sleeve Frill Top",
     type: "KidsLong",
     price: 149,
-    image: "../clothing/kid/long3.png",
+    image: "../kid/long3.png",
   },
   {
     name: "Boys Ts Long Sleeve Base Layer",
     type: "KidsLong",
     price: 149,
-    image: "../clothing/kid/long4.png",
+    image: "../kid/long4.png",
   },
   {
     name: "Boys Ts Long Sleeve Graphic Tee",
     type: "KidsLong",
     price: 99,
-    image: "../clothing/kid/long5.png",
+    image: "../kid/long5.png",
   },
   {
     name: "Older Girls Long Sleeve Anglaise Frill Top",
@@ -1214,25 +1214,25 @@ const clothingData = [
     name: "puma junior graviton pink sneaker",
     type: "KidsSneakers",
     price: 1099.0,
-    image: "../clothing/kid/shoe1.png",
+    image: "../kid/shoe1.png",
   },
   {
     name: "Nike Junior Dunk High Multicolour Sneaker",
     type: "KidsSneakers",
     price: 1999.0,
-    image: "../clothing/kid/shoe2.png",
+    image: "../kid/shoe2.png",
   },
   {
     name: "Puma Toddler BMW MMS Caven White Sneaker",
     type: "KidsSneakers",
     price: 999.0,
-    image: "../clothing/kid/shoe3.png",
+    image: "../kid/shoe3.png",
   },
   {
     name: "Junior Pre-School Converse All Star Sneaker",
     type: "KidsSneakers",
     price: 899.0,
-    image: "../clothing/kid/shoe4.png",
+    image: "../kid/shoe4.png",
   },
   {
     name: "Converse Junior CTAS Mid Fatigue Sneaker",
@@ -1396,29 +1396,6 @@ function addToCart(productName, productPrice) {
   updateCart();
 }
 
-//checkout functionality
-
-// function updateCart() {
-//     const cartContainer = document.querySelector(".cart");
-//     cartContainer.innerHTML = "";
-
-//     cart.forEach((item, index) => {
-//         const cartItem = document.createElement("div");
-//         cartItem.classList.add("cart-item");
-//         cartItem.innerHTML = `
-//             <p>${item.name} - R ${item.price}</p>
-//             <button class="btnTrash" onclick="removeFromCart(${index})">
-//             <i class="fa-solid fa-trash"></i>
-//             </button>
-//         `;
-//         cartContainer.appendChild(cartItem);
-//     });
-
-//     const total = cart.reduce((acc, item) => acc + item.price, 0);
-//     cartContainer.innerHTML += `<p>Total: R ${total}</p>`;
-
-// }
-
 function showPopup(name, price, image) {
   const popup = document.querySelector(".popup");
   popup.innerHTML = `
@@ -1500,27 +1477,6 @@ function updateCart() {
     </idv>
 `;
 }
-
-// function checkout() {
-// You can implement your checkout logic here.
-// For example, you can send the cart data to a server for payment processing.
-// After successful payment, you can clear the cart.
-// In this example, we'll simply clear the cart for demonstration purposes.
-
-// cart = [];
-// updateCart();
-// alert('TO CHECKOUT you need to create an online account with MRJ');
-// const SignUp = window.alert('TO CHECKOUT you need to create an online account with MRJ. You will be redirected to the sign up page');
-
-// This will take you to the next page
-// var nextPageURL = 'receipt.html';
-// window.location.href = nextPageURL;
-// }
-
-// ... (existing code)
-// Receipt Page
-// Get the receipt container element on the receipt.html page
-// Function to generate and display the receipt
 
 function checkout() {
   // You can implement your checkout logic here.
