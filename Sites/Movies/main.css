@@ -4,36 +4,45 @@ body {
     font-family: "Maven Pro", serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f6f4f4;
 }
 
 header {
-    background: #453c66;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+    /* background: #453c66; */
+    color: #ffffff;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    flex-direction: column;
 }
 
-.search-section {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.search-section form {
+form {
     display: inline-flex;
     gap: 10px; 
 }
 
-.search-section input[type="text"] {
+form input[type="text"] {
     padding: 10px;
     font-size: 16px;
     border: none;
     outline: none;
+    background-color: transparent;
+    color: #ffffff;
 }
-
-.search-section button {
+input[type="text"]::placeholder{
+    color: #bdbdbe;
+}
+form{
+    margin-top: 10%;
+}
+form button {
     padding: 10px 15px;
-    background: #453c66;
+    background-color: #453c66a1;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -42,12 +51,13 @@ header {
 
 .inputHolder{
     border-radius: 4px;
-    border: 1px solid #453c66;
+    border: 1px solid #ffffff;
     padding: 3px;
+    height: 40px;
 }
 
-.search-section button:hover {
-    background: #29233f; 
+form button:hover {
+    background: #585562ab; 
 }
 
 
@@ -61,23 +71,49 @@ nav ul li {
     margin: 0 15px;
 }
 
-nav ul li a:hover{
+nav a:hover{
     color: #599acf;
+    background-color: #453c66c0;
+    padding: 15px 30px;
+    border-radius: 25px;
 }
 
 nav a {
-    color: #fff;
+    color: #fdfdff;
     text-decoration: none;
     font-weight: bold;
+    transition: 250ms;
 }
-
+.Home{
+   height: 60vh;
+   position: sticky;
+   top: 0;
+   z-index: 10;
+   box-shadow: 0 0 40px rgb(0, 0, 0);
+}
+.Home img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    object-position: center;
+}
+section::before{
+    content: '';
+    background: linear-gradient(rgba(0, 0, 0, 0.896), rgba(0, 0, 0, 0.691));
+    inset: 0 0 0 0;
+    position: absolute;
+}
+@media screen and (max-width:600px) {
+    .Home{
+        height: 40vh;
+    }
+    .Home img{
+        height: 40vh;
+    }
+}
 main {
     padding: 40px 20px;
     text-align: center;
-}
-
-main h2{
-    color: #453c66;
 }
 
 .featured {
@@ -96,11 +132,6 @@ main h2{
     transition: .30s;
 }
 
-main img:hover{
-    transform: scale(1.1);
-    margin: 5px;
-}
-
 footer {
     text-align: center;
     padding: 10px 0;
@@ -109,4 +140,90 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/* Fliping card */
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.container{
+    width: 240px;
+    height: 300px;
+    perspective: 800px;
+}
+@media screen and (max-width:600px) {
+    .container{
+        width: 300px;
+        height: 300px;
+    }
+}
+.container:hover > .card{
+    transform: rotateY(180deg);
+}
+.card{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1700ms;
+}
+.front,
+.back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.back{
+    transform: rotateY(180deg);
+    background-color: rgb(128, 128, 128);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.back h3{
+    color: rgb(246, 118, 76);
+    margin-bottom: 0; 
+}
+
+.back button{
+    padding: 15px;
+    width: 120px;
+    border: 2px solid rgb(246, 118, 76);
+    background-color: gray;
+    border-radius: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: background-color 300ms;
+}
+.back button:hover{
+    background-color: rgba(246, 119, 76, 0.898);
+    box-shadow: 0 0 10px rgb(246, 118, 76);
+}
+.back i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.back i:hover{
+    color: rgb(246, 118, 76);
+    text-shadow: 0 0 10px rgb(246, 118, 76);
+}
+.front img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
 }
