@@ -142,7 +142,8 @@ footer {
     width: 100%;
 }
 @media sreen and (max-width:600px){
-    .fa-solid{
+    .fa-chevron-right,
+    .fa-chevron-left{
         dispaly:none;
     }
 }
