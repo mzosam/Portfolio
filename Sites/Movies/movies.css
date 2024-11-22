@@ -141,3 +141,8 @@ footer {
     bottom: 0;
     width: 100%;
 }
+@media sreen and (max-width:600px){
+    .fa-solid{
+        dispaly:none;
+    }
+}
