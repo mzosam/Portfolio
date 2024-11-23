@@ -24,6 +24,7 @@
                     <button type="submit">Search</button>
                 </div>
             </form>
+            <iframe id="videoElement" src=""  frameborder="0" allow="accelerometer; autoplay;  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </header>
     </section>
 
@@ -39,7 +40,10 @@
                         <h3>Endless Love</h3>
                         <p>A high-school student's love for a 15-year-old girl is thwarted by parental disapproval, circumstance, and accident; he burns down her family's house and is committed to psychiatric hospital.</p>
     
-                        <button>Watch Trailer</button>
+                        <button 
+                            onclick="playVideo('https:youtube.com/embed/RKWlsnyYqfA')">Watch Trailer
+                        </button>
+
                         <div class="icons">
                             <i class="fa-solid fa-heart"></i>
                             <i class="fa-solid fa-cart-shopping"></i>
@@ -57,7 +61,10 @@
                         <h3>The GodFather</h3>
                         <p>The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.</p>
     
-                        <button>Watch Trailer</button>
+                        <button 
+                            onclick="playVideo('https:youtube.com/embed/UaVTIH8mujA')">Watch Trailer
+                        </button>
+
                         <div class="icons">
                             <i class="fa-solid fa-heart"></i>
                             <i class="fa-solid fa-cart-shopping"></i>
@@ -75,7 +82,10 @@
                         <h3>Novermber man</h3>
                         <p>An ex-C.I.A. operative is brought back in on a very personal mission and finds himself pitted against his former pupil in a deadly game involving high level C.I.A. officials and the Russian President-elect.</p>
     
-                        <button>Watch Trailer</button>
+                        <button 
+                            onclick="playVideo('https:youtube.com/embed/icL5C1s267Y')">Watch Trailer
+                        </button>
+
                         <div class="icons">
                             <i class="fa-solid fa-heart"></i>
                             <i class="fa-solid fa-cart-shopping"></i>
@@ -93,7 +103,9 @@
                         <h3>Fast and Furious</h3>
                         <p>Brian O'Conner, now working for the FBI in LA, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.</p>
     
-                        <button>Watch Trailer</button>
+                        <button 
+                            onclick="playVideo('https:youtube.com/embed/FUK2kdPsBws')">Watch Trailer
+                        </button>
                         <div class="icons">
                             <i class="fa-solid fa-heart"></i>
                             <i class="fa-solid fa-cart-shopping"></i>
@@ -111,7 +123,10 @@
                         <h3>GoodFellas</h3>
                         <p>Henry Hill and his friends work their way up through the mob hierarchy.</p>
     
-                        <button>Watch Trailer</button>
+                        <button 
+                            onclick="playVideo('https:youtube.com/embed/qo5jJpHtI1Y')">Watch Trailer
+                        </button>
+
                         <div class="icons">
                             <i class="fa-solid fa-heart"></i>
                             <i class="fa-solid fa-cart-shopping"></i>
@@ -129,7 +144,10 @@
                         <h3>Lord of the rings</h3>
                         <p>The Fellowship of the Ring embark on a journey to destroy the One Ring and end Sauron's reign over Middle Earth.</p>
     
-                        <button>Watch Trailer</button>
+                        <button 
+                            onclick="playVideo('https:youtube.com/embed/gCUg6Td5fgQ')">Watch Trailer
+                        </button>
+
                         <div class="icons">
                             <i class="fa-solid fa-heart"></i>
                             <i class="fa-solid fa-cart-shopping"></i>
@@ -147,7 +165,10 @@
                         <h3>Cinderella</h3>
                         <p>When her father unexpectedly dies, young Ella finds herself at the mercy of her cruel stepmother and her scheming stepsisters. Never one to give up hope, Ella's fortunes begin to change after meeting a dashing stranger.</p>
     
-                        <button>Watch Trailer</button>
+                        <button 
+                            onclick="playVideo('https:youtube.com/embed/n44EWI92Tc8')">Watch Trailer
+                        </button>
+
                         <div class="icons">
                             <i class="fa-solid fa-heart"></i>
                             <i class="fa-solid fa-cart-shopping"></i>
@@ -165,7 +186,10 @@
                         <h3>Titanic</h3>
                         <p>The world's largest ship, the Titanic, meets with disaster when it strikes an iceberg on its maiden voyage.</p>
     
-                        <button>Watch Trailer</button>
+                        <button 
+                            onclick="playVideo('https:youtube.com/embed/I7c1etV7D7g')">Watch Trailer
+                        </button>
+
                         <div class="icons">
                             <i class="fa-solid fa-heart"></i>
                             <i class="fa-solid fa-cart-shopping"></i>
@@ -181,9 +205,12 @@
                     </div>
                     <div class="back">
                         <h3>The Vampire</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores tenetur, et nemo eligendi voluptate alias beatae pariatur error,  accusantium.</p>
+                        <p>Recovering from an ambush that killed his entire team, a vengeful vampire slayer must retrieve an ancient Catholic relic that, should it be acquired by vampires, will allow them to walk in sunlight.</p>
     
-                        <button>Watch Trailer</button>
+                        <button 
+                            onclick="playVideo('https:youtube.com/embed/BmVmhjjkN4E')">Watch Trailer
+                        </button>
+
                         <div class="icons">
                             <i class="fa-solid fa-heart"></i>
                             <i class="fa-solid fa-cart-shopping"></i>
@@ -199,9 +226,12 @@
                     </div>
                     <div class="back">
                         <h3>Me before you</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores tenetur, et nemo eligendi voluptate alias beatae pariatur error,  accusantium.</p>
+                        <p>A girl in a small town forms an unlikely bond with a recently-paralyzed man she's taking care of.</p>
     
-                        <button>Watch Trailer</button>
+                        <button 
+                            onclick="playVideo('https:youtube.com/embed/T0MmkG_nG1U')">Watch Trailer
+                        </button>
+
                         <div class="icons">
                             <i class="fa-solid fa-heart"></i>
                             <i class="fa-solid fa-cart-shopping"></i>
@@ -219,6 +249,18 @@
         function myFunction(image){
             display.src = image.src;
         }
+
+
+        function playVideo(url){
+            if(videoElement.style.display === 'none'){
+                videoElement.style.display = 'block';
+                videoElement.src = url;
+            }
+            else{
+                videoElement.style.display = "none";  
+            }
+        }
+    
     </script>
 </body>
 </html>
