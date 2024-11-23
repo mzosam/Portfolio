@@ -20,6 +20,13 @@ header {
     top: 0;
     flex-direction: column;
 }
+iframe{
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    top: 0;
+    display: none;
+}
 
 form {
     display: inline-flex;
@@ -109,6 +116,9 @@ section::before{
         height: 40vh;
     }
     .Home img{
+        height: 40vh;
+    }
+    iframe{
         height: 40vh;
     }
 }
