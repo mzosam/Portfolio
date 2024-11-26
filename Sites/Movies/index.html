@@ -33,7 +33,7 @@
 
             <div class="container">
                 <div class="card">
-                    <div class="front">
+                    <div class="front" onmouseover="hideVideo()" id="front">
                         <img src="images/endless love.jpg" alt="" onmouseover="myFunction(this)">
                     </div>
                     <div class="back">
@@ -54,7 +54,7 @@
     
             <div class="container">
                 <div class="card">
-                    <div class="front">
+                    <div class="front" onmouseover="hideVideo()">
                         <img src="images/godfather.jfif" alt="" onmouseover="myFunction(this)">
                     </div>
                     <div class="back">
@@ -75,7 +75,7 @@
     
             <div class="container">
                 <div class="card">
-                    <div class="front">
+                    <div class="front" onmouseover="hideVideo()">
                         <img src="images/Novermber_man.jpg" alt="" onmouseover="myFunction(this)">
                     </div>
                     <div class="back">
@@ -96,7 +96,7 @@
     
             <div class="container">
                 <div class="card">
-                    <div class="front">
+                    <div class="front" onmouseover="hideVideo()">
                         <img src="images/Fast_9.jpg" alt="" onmouseover="myFunction(this)">
                     </div>
                     <div class="back">
@@ -116,7 +116,7 @@
     
             <div class="container">
                 <div class="card">
-                    <div class="front">
+                    <div class="front" onmouseover="hideVideo()">
                         <img src="images/goodFellas.jpg" alt="" onmouseover="myFunction(this)">
                     </div>
                     <div class="back">
@@ -137,7 +137,7 @@
     
             <div class="container">
                 <div class="card">
-                    <div class="front">
+                    <div class="front" onmouseover="hideVideo()">
                         <img src="images/Lord_of_the_rings.jpg" alt="" onmouseover="myFunction(this)">
                     </div>
                     <div class="back">
@@ -158,7 +158,7 @@
     
             <div class="container">
                 <div class="card">
-                    <div class="front">
+                    <div class="front" onmouseover="hideVideo()">
                         <img src="images/Cinderella.jpg" alt="" onmouseover="myFunction(this)">
                     </div>
                     <div class="back">
@@ -179,7 +179,7 @@
     
             <div class="container">
                 <div class="card">
-                    <div class="front">
+                    <div class="front" onmouseover="hideVideo()">
                         <img src="images/Titanic.png" alt="" onmouseover="myFunction(this)">
                     </div>
                     <div class="back">
@@ -200,7 +200,7 @@
     
             <div class="container">
                 <div class="card">
-                    <div class="front">
+                    <div class="front" onmouseover="hideVideo()">
                         <img src="images/Vampire.jpg" alt="" onmouseover="myFunction(this)">
                     </div>
                     <div class="back">
@@ -221,7 +221,7 @@
     
             <div class="container">
                 <div class="card">
-                    <div class="front">
+                    <div class="front" onmouseover="hideVideo()">
                         <img src="images/me_before_you.jpg" alt="" onmouseover="myFunction(this)">
                     </div>
                     <div class="back">
@@ -250,15 +250,16 @@
             display.src = image.src;
         }
 
+         function hideVideo(){
+             videoElement.style.display = "none";  
+             videoElement.src = '';
+            }
 
         function playVideo(url){
            if(videoElement.style.display === 'none' || videoElement.style.display === '') {
             videoElement.style.display = 'block';
             videoElement.src = url;               
            } 
-           // else if(videoElement.style.display = 'block'){
-           //  videoElement.src = url;
-           // }
            else {
             videoElement.style.display = "none";  
             videoElement.src = '';      
