@@ -9,6 +9,9 @@
 </head>
 
 <body>
+    <div class="Loading">
+        <span></span>
+    </div>
     <header>
         <div class="logo">
             
@@ -101,7 +104,7 @@
                 <p>Role: <strong>Soloist.</strong></p>
             </li>
             <li>
-                <h3><a href="Sites/index.html" target="_blank">Ecommerce websites</a></h3>
+                <h3><a href="Sites/MRJ-OnlineClothingStore/index.html" target="_blank">Ecommerce websites</a></h3>
                 <p>Description: We developed an online store, it's a platform that helps customers browes fashion on the go and they can also place orders virtually with the help of paygates. We used variety of technologies like JavaScripts, html, css and React.</p>
                 <p>Role: <strong>Front End development.</strong></p>
             </li>
@@ -138,6 +141,16 @@
     </footer>
 
     <script>
+        
+        window.addEventListener("load", ()=>{
+            const loader = document.querySelector(".Loading");
+
+            loader.classList.add("loader--hidden");
+            loader.addEventListener("transitionend", ()=>{
+                document.body.removeChild(loader);
+            })
+        })
+
         let navigationBar = document.querySelector('.mobile');
 
         function showNavigation(){
@@ -148,6 +161,7 @@
                navigationBar.className = 'open';
             }
         }
+
     </script>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
